@@ -1,0 +1,7 @@
+Defaulting to user installation because normal site-packages is not writeable
+Looking in links: /usr/share/pip-wheels
+Requirement already satisfied: djangorestframework in /home/AlejandroDjango/.local/lib/python3.10/site-packages (3.11.2)
+Requirement already satisfied: django>=1.11 in /home/AlejandroDjango/.local/lib/python3.10/site-packages (from djangorestframework) (5.0.1)
+Requirement already satisfied: asgiref<4,>=3.7.0 in /home/AlejandroDjango/.local/lib/python3.10/site-packages (from django>=1.11->djangorestframework) (3.7.2)
+Requirement already satisfied: sqlparse>=0.3.1 in /usr/local/lib/python3.10/site-packages (from django>=1.11->djangorestframework) (0.4.2)
+Requirement already satisfied: typing-extensions>=4 in /home/AlejandroDjango/.local/lib/python3.10/site-packages (from asgiref<4,>=3.7.0->django>=1.11->djangorestframework) (4.9.0)
